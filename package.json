@@ -1,0 +1,23 @@
+{
+  "name": "blog-express",
+  "version": "1.0.0",
+  "description": "blog-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "KubbaQ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoskin": "^2.1.0",
+    "pug": "^2.0.0-rc.4",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "expect": "^21.0.2",
+    "mocha": "^3.5.3",
+    "superagent": "^3.6.0"
+  }
+}
